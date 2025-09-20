@@ -47,13 +47,21 @@ http://localhost:8000/docs
 4. Остановка проекта
 
 Чтобы остановить проект, выполните команду:
-    ```bash
-    
-    docker-compose down
+
+     docker-compose down
 
 5. Проверка
 
 Для проверки работы контейнеров используйте следующие команды.
-   ```bash
-   docker-compose logs app
-   docker-compose logs db
+
+      ```bash
+      docker-compose logs app
+      docker-compose logs db
+
+
+6. Тестирование
+
+Для выполнения тестов выполните команду для их запуска:
+
+pytest tests/
+
