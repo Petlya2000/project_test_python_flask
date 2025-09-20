@@ -55,3 +55,9 @@ docker-compose down
 docker-compose logs app
 
 docker-compose logs db
+
+6. Тестирование
+
+Для выполнения тестов выполните команду для их запуска:
+
+pytest tests/
