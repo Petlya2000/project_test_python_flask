@@ -26,9 +26,10 @@
    ```bash
    git clone https://github.com/username/project-name.git
    cd project-name
+   
 2. Запустите проект с помощью Docker Compose:
-
-docker-compose up
+   ```bash
+   docker-compose up
 
 Docker Compose автоматически создаст и запустит все необходимые контейнеры.
 
@@ -46,20 +47,13 @@ http://localhost:8000/docs
 4. Остановка проекта
 
 Чтобы остановить проект, выполните команду:
-
-   ```bash
-   docker-compose down
+    ```bash
+    
+    docker-compose down
 
 5. Проверка
 
 Для проверки работы контейнеров используйте следующие команды.
-
-docker-compose logs app
-
-docker-compose logs db
-
-6. Тестирование
-
-Для выполнения тестов выполните команду для их запуска:
-
-pytest tests/
+   ```bash
+   docker-compose logs app
+   docker-compose logs db
