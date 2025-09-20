@@ -47,8 +47,8 @@ http://localhost:8000/docs
 
 Чтобы остановить проект, выполните команду:
 
-
-docker-compose down
+   ```bash
+   docker-compose down
 
 5. Проверка
 
